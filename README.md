@@ -1,12 +1,8 @@
-# fuzzy
-
 [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg?longCache=true&style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.7.1-blue.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
-<br/>
-
-## Description
+# fuzzy
 
 A tool to [fuzzy search](https://en.wikipedia.org/wiki/Approximate_string_matching) commands, files, or processes based on [percol](https://github.com/mooz/percol), the simplistic interactive filtering tool.
 
@@ -42,15 +38,13 @@ omf repositories add https://gitlab.com/argonautica/argonautica
 omf install fuzzy
 ```
 
-## Dependencies
+### Dependencies
 
 > If any of the following dependencies isn't installed, upon installing fuzzy you'll be prompted to install them.
 
 `percol tldr curl mlocate file sensible-utils xdg-open feedback contains_opts`
 
-## Optional configurations
-
-### Keybindings
+## Keybinding configuration
 
 By default, this script binds Alt+H, Alt+T, Alt+O and Alt+C to the additional fish options, passing the current command line as an argument.
 
